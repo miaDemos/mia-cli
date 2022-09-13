@@ -1,0 +1,22 @@
+{
+  "name": "mia-cli",
+  "version": "1.0.1",
+  "description": "一个 node cli ，帮助你快速生成项目",
+  "main": "index.js",
+  "author": "mia",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "bin": {
+    "mia": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "execa": "^6.1.0",
+    "inquirer": "^9.1.1",
+    "tsx": "^3.9.0"
+  }
+}
